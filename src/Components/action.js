@@ -15,3 +15,9 @@ export function addData(data) {
         data,
     }
 }
+export function selectEmp(data) {
+    return {
+        type: 'SELECT_EMP',
+        data,
+    }
+}
